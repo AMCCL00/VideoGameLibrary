@@ -70,4 +70,7 @@ public class Library {
             System.out.println((i + 1) + ". " + game.getTitle());
         }
     }
+    protected void mainMenu(){
+        menu.startMenu();
+    }
 }

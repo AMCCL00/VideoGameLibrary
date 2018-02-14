@@ -7,6 +7,9 @@ public class Menu {
     private Scanner input = new Scanner(System.in);
     private Library library = new Library(this);
 
+    /**Just nit-picking, I'd start the app in the Library instead of the menu, given the app is a library. And I'd have the library instantiate the menu
+     * and use it; just like in real life, a library would present the menu and use your response to determine what it would do with your games. */
+
     public void startMenu() {
         System.out.println("Welcome to the  Video Game library, what would you like to do?");
         System.out.println("" +

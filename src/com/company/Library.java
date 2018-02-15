@@ -46,7 +46,7 @@ public class Library {
     }
 
     protected void checkInGame(int gameIndex) {
-         gameIndex --;
+        gameIndex --;
         Game game = checkedOutGames.get(gameIndex);
 
         System.out.println("Your game has been checked back in.\n");
